@@ -1,0 +1,27 @@
+<head>
+  <!--the title of my app-->
+  <title>PinXiu's ELIZA</title>
+</head>
+
+<body>
+  <center>
+      <p>
+        <a hred = "http://google.com"><img src = "https://www.google.com.tw/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png"></a>
+      </p>
+      <h1><h2><b>
+        This is PinXiu's ELIZA!
+      </b></h2></h1>
+
+      <p>
+        <textarea id = "conversationBox" rows = "20" cols = "80" readonly>ELIZA:This is ELIZA. How are you?</textarea>
+      </p>
+    <form><!--If the <textarea> is placed between <form>, then when pressing <reset>, the text in the <conversationBox> will disappear--> 
+      <p>
+        <input type = "text" id = "myMsg" size = "80" placeholder = "Enter your message"><br>
+        <input type = "submit" id = "submitmsg" value = "Submit">
+        <input type = "reset" id = "resetMsg" value = "Reset">
+      </p>
+    </form>
+  </center>
+
+</body>
